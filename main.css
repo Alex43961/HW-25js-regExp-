@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.wrapper_ex1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+}
+#textarea {
+	width: 300px;
+	height: 300px;
+	border: 10px solid blueviolet;
+	font-size: 20px;
+}
+#input {
+	width: 300px;
+	height: 40px;
+	border: 2px solid rgb(41, 44, 41);
+	font-size: 20px;
+}
+
+#input::placeholder {
+	color: rgb(185, 181, 181);
+	font-size: 20px;
+	padding: 10px;
+}
+#button {
+	width: 300px;
+	height: 40px;
+	border: 2px solid rgb(125, 23, 108);
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: aqua;	
+}
+#button:hover {
+	background-color: #579069;
+}
+
+.wrapper_ex2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+}
+
+#textarea2 {
+	width: 300px;
+	height: 300px;
+	border: 10px solid rgb(162, 233, 10);
+	font-size: 20px;
+}
+
+#doubleButton {
+	width: 300px;
+	height: 40px;
+	border: 2px solid rgb(73, 113, 35);
+	border-radius: 5px;
+	font-size: 20px;
+}
