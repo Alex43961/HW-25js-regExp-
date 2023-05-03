@@ -9,7 +9,7 @@
 	justify-content: space-around;
 	align-items: baseline;
 }
-.wrapper_ex1{
+.ex1_wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -46,7 +46,7 @@
 	background-color: #579069;
 }
 
-.wrapper_ex2{
+.ex2_wrapper{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -67,4 +67,48 @@
 	border: 2px solid rgb(73, 113, 35);
 	border-radius: 5px;
 	font-size: 20px;
+}
+
+.ex3_wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+}
+
+#textarea3 {
+	width: 300px;
+	height: 300px;
+	border: 10px solid rgb(142, 16, 132);
+	font-size: 20px;
+}
+
+#replaceButton {
+	width: 300px;
+	height: 40px;
+	border: 2px solid rgb(73, 113, 35);
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+#plusButton {
+	width: 300px;
+	height: 40px;
+	border: 2px solid rgb(73, 113, 35);
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.input3 {
+	width: 300px;
+	height: 40px;
+	border: 2px solid rgb(41, 44, 41);
+	font-size: 20px;
+}
+
+.input3::placeholder {
+	color: rgb(185, 181, 181);
+	font-size: 20px;
+	padding: 10px;
 }
